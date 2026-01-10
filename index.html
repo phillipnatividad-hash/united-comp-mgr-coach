@@ -46,9 +46,14 @@
             flex-wrap: wrap;
         }
 
-        .logo {
+        .logo-circle {
+            height: 150px;
+            width: 150px;
             max-width: 150px;
-            height: auto;
+            object-fit: contain;
+            border-radius: 50%;
+            background: white;
+            padding: 25px;
             filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
         }
 
@@ -195,8 +200,11 @@
                 font-size: 1rem;
             }
 
-            .logo {
+            .logo-circle {
+                height: 120px;
+                width: 120px;
                 max-width: 120px;
+                padding: 20px;
             }
 
             .content {
@@ -209,8 +217,8 @@
     <div class="container">
         <div class="header">
             <div class="logo-container">
-                <img src="2025_UBC_Logo_4C.png" alt="United Boxing Club Logo" class="logo">
-                <img src="UBC_Competitive_Team_Logo_Back_A.jpg" alt="UBC Competitive Team Logo" class="logo">
+                <img src="UBC_Logo_100_px.png" alt="United Boxing Club Logo" class="logo-circle">
+                <img src="Comp_Team_Logo_100_px.png" alt="UBC Competitive Team Logo" class="logo-circle">
             </div>
             <div class="coach-info">
                 <h1 class="coach-name">Phil Natividad</h1>

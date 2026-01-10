@@ -2,8 +2,10 @@
 
 ## Files Included
 - `index.html` - Main contact page
-- `2025_UBC_Logo_4C_white_outline.png` - UBC main logo (white outline version)
-- `UBC_Competitive_Team_Logo_Back_A.jpg` - Competitive team logo (displays in circular frame)
+- `UBC_Logo_100_px.png` - UBC main logo (100px)
+- `Comp_Team_Logo_100_px.png` - Competitive team logo (100px)
+
+Both logos display in matching white circular frames.
 
 ## Important: File Structure
 **All three files MUST be in the same directory for the logos to display correctly.**
