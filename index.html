@@ -75,6 +75,15 @@
             line-height: 1.6;
         }
 
+        .title-line {
+            display: inline;
+        }
+
+        .title-line:not(:last-child)::after {
+            content: " | ";
+            margin: 0 4px;
+        }
+
         .certification {
             display: inline-block;
             background: rgba(255, 215, 0, 0.2);
@@ -200,6 +209,15 @@
                 font-size: 1rem;
             }
 
+            .title-line {
+                display: block;
+            }
+
+            .title-line:not(:last-child)::after {
+                content: "";
+                margin: 0;
+            }
+
             .logo-circle {
                 height: 120px;
                 width: 120px;
@@ -222,8 +240,12 @@
             </div>
             <div class="coach-info">
                 <h1 class="coach-name">Phil Natividad</h1>
-                <p class="coach-title">Competitive Team General Manager & Coach</p>
-                <span class="certification">NCCP Level 3</span>
+                <p class="coach-title">
+                    <span class="title-line">Competitive Team</span>
+                    <span class="title-line">Manager & Coach</span>
+                    <span class="title-line">United Boxing Club Board Member</span>
+                </p>
+                <span class="certification">NCCP Level 3 Boxing Accreditation</span>
             </div>
         </div>
 
